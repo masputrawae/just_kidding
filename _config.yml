@@ -1,0 +1,48 @@
+# ===========[] Base Setting
+title: "Your Site Title"
+description: "Your Site Description Here"
+author: "Your Name"
+logo: "/assets/img/logo.png"
+data-theme: "dark" # Ada dua tema "dark" dan "light" secara default jika kosong otomatis "dark"
+url: "" # Isi dengan url github page, contoh : "https://yourname.github.io"
+baseurl: "" # Isi dengan patch misal : "/nama-repo"
+
+# ===========[] Important Setting
+# If you don't understand, don't change it (jika tidak mengerti jangan di ubah ubah)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/:title/"
+      toc: true
+
+collections:
+  projects:
+    output: true
+  pages:
+    output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - drafts
+  - .sass-cache/
+  - .jekyll-cache/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+highlighter: rouge
+markdown: kramdown
+kramdown: 
+  syntax_highlighter_opts:
+    disable : true
+
+# ===========[] Other Setting
+# Untuk menambah content landing page/home dan konfigurasi lainya bisa ke _data/additional.yml

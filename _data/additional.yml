@@ -1,0 +1,69 @@
+# ===========[] Landing Page Content
+hero_section:
+  title: "Selamat Datang di Situs Kami!"
+  subtitle: "Tempat belajar dan berbagi pengetahuan."
+  btn_actions:
+    - btn_text: "Mulai Belajar"
+      btn_url: "/learn"
+    - btn_text: "Bergabung Di Discord"
+      btn_url: "https://discord-link.example.com"
+
+# ===========[] For About Page 
+bio:
+  name: "Your Name"
+  introduction: "Write about yourself"
+  avatar: "/assets/image/avatar.png"
+  email: "example@mail.com"
+
+# ===========[] Social Link
+social:
+  - name: "facebook"
+    icon: "bi-facebook"
+    link: "https://www.facebook.com/profile.php?id=61566134978045"
+    
+  - name: "twitter"
+    icon: "bi-twitter-x"
+    link: "https://x.com/Masputrawae"
+    
+  - name: "instagram"
+    icon: "bi-instagram"
+    link: "https://www.instagram.com/masputrawae/"
+    
+  - name: "youtube"
+    icon: "bi-youtube"
+    link: "https://www.youtube.com/@masputrawae"
+    
+  - name: "github"
+    icon: "bi-github"
+    link: "https://github.com/masputrawae/"
+    
+  - name: "discord"
+    icon: "bi-discord"
+    link: "https://discord.gg/nM4EP8DJFZ"
+  
+  - name: "linkedin"
+    icon: "bi-linkedin"
+    link: "https://www.linkedin.com/in/yourname"
+
+  - name: "rss-feed"
+    icon: "bi-rss"
+    link: "/feed.xml"
+    
+# Add and customize for other links (tambahkan link lain sesuai kebutuhan, atau kurangi di atas jika beberapa tidak digunakan)
+
+# ===========[] Copyright
+footer:
+  copyright_custom: "Made with ❤️ by [Your Name](https://example.com)"
+  copyright_text: "© {{ site.time | date: '%Y' }} {{ site.footer.owner_name }}. All rights reserved."
+  
+  # Optional
+  links:
+    - text: "Privacy Policy"
+      url: /privacy-policy
+
+    - text: "Terms of Service"
+      url: /terms-of-service
+
+# Saya Harap Jangan Menonaktifkan ini, tapi kembali lagi ke anda, silahkan nonaktifkan jika terlalu mengganggu
+show_credits: true
+credits_text: "Theme by [Your Name](https://yourwebsite.com)"
