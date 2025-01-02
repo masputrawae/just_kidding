@@ -1,0 +1,131 @@
+# =======================
+# SISTEM OPERASI
+# =======================
+.DS_Store
+Thumbs.db
+
+# =======================
+# EDITOR
+# =======================
+*.swp
+*.swo
+*.tmp
+*.bak
+.idea/
+.vscode/
+*.code-workspace
+
+# =======================
+# LOG DAN CACHE
+# =======================
+*.log
+*.out
+*.cache
+*.pid
+*.pid.lock
+logs/
+tmp/
+
+# =======================
+# FILE ENVIRONMENT
+# =======================
+.env
+.env.*
+
+# =======================
+# BACKUP DAN DATABASE
+# =======================
+*.bak
+*.sql
+*.sqlite
+*.sqlite3
+
+# =======================
+# PYTHON
+# =======================
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build Output
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Test dan Coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+*.cover
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+config.php
+# =======================
+# FLASK
+# =======================
+instance/
+config.py
+
+# =======================
+# DJANGO
+# =======================
+db.sqlite3
+staticfiles/
+media/
+migrations/
+
+# =======================
+# NODE.JS
+# =======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# =======================
+# JEKYLL
+# =======================
+vendor
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# =======================
+# PHP
+# =======================
+vendor/
+composer.lock
+composer.phar
+
+# =======================
+# FILE UMUM
+# =======================
+# Backup
+*.tmp
+*.old
+Gemfile.lock
+
+# Kompresi
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Gambar Cache
+*.psd
+*.tiff
+*.bmp
